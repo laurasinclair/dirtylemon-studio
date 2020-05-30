@@ -1,0 +1,41 @@
+languageCode = "en-uk"
+title = "Dirty Lemon Studio"
+pluralizeListTitles = "false"
+baseURL = "https://dirtylemon.studio/"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Work"
+    url = "/#work"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/get-in-touch"
+    weight = 4
+
+[params]
+  email = "hello@dirtylemon.studio"
+  metadescription = "Dirty Lemon is a design studio specialising in fun & happy creative artwork!"
+
+[related]
+    treshold = 1
+    includeNewer = true
+    toLower = false
+
+    [[related.indices]]
+        name = "CurrentSection.Title"
+        weight = 75
+    [[related.indices]]
+        name = "Section.Title"
+        weight = 50
+    [[related.indices]]
+        name = "description"
+        weight = 25

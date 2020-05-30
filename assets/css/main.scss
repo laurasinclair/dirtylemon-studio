@@ -1,0 +1,36 @@
+@import 'bootstrap/scss/bootstrap-reboot.scss';
+@import 'bootstrap/scss/bootstrap-grid.scss';
+@import "_fonts";
+
+$font-primary: 'Roboto mono', 'Open sans', Arial, Helvetica, sans-serif;
+
+// Colors
+$indigo:    #6562FF;
+$yellow:    #FFC107;
+$red:       #FF5C00;
+
+$primary:   $indigo;
+$secondary: $yellow;
+$tertiary:  $red;
+
+$light:     #f1f6f9;
+$dark:      #000;
+
+// layout
+$grid-gutter-width:     55px !default;
+
+@import "_custom";
+
+
+// layout
+@import "_utilities.sass";
+@import "_basics.sass";
+@import "_nav.sass";
+@import "_related.sass";
+@import "_contact-form.sass";
+ 
+// pages
+@import "_home.sass";
+@import "_work.sass";
+@import "_about.sass";
+@import "_get-in-touch.sass";
